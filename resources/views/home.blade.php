@@ -7,14 +7,14 @@
                 {{-- col-12 col-lg-5 col-md-5 banner-new-homepage --}}
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
                     <div class="col">
-                        <h1 class="font-bold">Build, Grow, and Expand Your Futures Startup with Us!</h1>
-                        <div>We provide our best service for you with 24-hour consultation, unlimited revisions, beautiful
+                        <h1 class="satoshi-bold-40">Build, Grow, and Expand Your Futures Startup with Us!</h1>
+                        <div class="satoshi-normal-18">We provide our best service for you with 24-hour consultation, unlimited revisions, beautiful
                             UI/UX for application or website for attract more customer for you.</div>
                             <br>
                         <button class="button-82-pushable" role="button">
                             <span class="button-82-shadow"></span>
                             <span class="button-82-edge"></span>
-                            <span class="button-82-front text">
+                            <span class="button-82-front text satoshi-normal-18">
                                 See More
                             </span>
                         </button>

@@ -1,0 +1,56 @@
+/// Container's maximum width
+/// @type Length
+$min-width: 768px !default;
+$dashboard-min-width: 900px !default;
+$max-width: 1366px !default;
+$webview-width: 360px !default;
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
+
+
+/* Colors: */
+/* Primary */
+$blue: #034AA6;
+
+/* Secondary */
+$orange: #F69620;
+
+/* Accent */
+$accent-white-5: #F2F2F2;
+
+/* Shadow Color */
+$shadow-33: #9B9B9B33;
+$shadow-40: #9B9B9B40;
+
+/* Font/text values */
+$satoshi-regular: Satoshi-Regular;
+$satoshi-medium: Satoshi-Medium;
+$satoshi-black: Satoshi-Black;
+$satoshi-bold: Satoshi-Bold;
+
+
+$font-style-normal: normal;
+
+$font-weight-bold: bold;
+$font-weight-normal: normal;
+
+$font-14: 0.875rem;
+$font-16: 1rem;
+$font-18: 1.125rem;
+$font-20: 1.25rem;
+$font-24: 1.5rem;
+$font-28: 1.75rem;
+$font-32: 2rem;
+$font-36: 2.25rem;
+$font-40: 2.5rem;
+// $font-20: 1.25rem;
+// $font-24: 1.5rem;
+// $font-32: 2rem;
+// $font-40: 2.5rem;
+
+$char-spacing-0: 0px;

@@ -12,9 +12,10 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.sass('resources/css/style.scss', 'css');
+/* mix.sass('resources/css/style.scss', 'css'); */
+mix.sass('resources/sass/main.scss', 'css');
 
-mix.browserSync('portofoliodavid.test');
+// mix.browserSync('portofoliodavid.test');
 
 // const mix = require('laravel-mix');
 

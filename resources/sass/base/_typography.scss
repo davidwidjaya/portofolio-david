@@ -1,0 +1,332 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+    // color: $darkgray;
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-16;
+    line-height: 1.5;
+    letter-spacing: $char-spacing-0;
+    background-color: $accent-white-5;
+    //   font: normal 125% / 1.4 $text-font-stack;
+}
+
+/* Character Styles */
+.satoshi-normal-12 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-12 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-12 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: 12px;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-normal-14 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-14;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-14 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-14;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-14 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-14;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-normal-16 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-16;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-16 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-16;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-16 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-16;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-normal-18 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-18;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-18 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-18;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-18 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-18;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-normal-20 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-20;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-20 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-20;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-20 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-20;
+    letter-spacing: $char-spacing-0;
+}
+
+
+.satoshi-normal-24 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-24;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-24 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-24;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-24 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-24;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-normal-28 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-28;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-28 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-28;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-28 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-28;
+    letter-spacing: $char-spacing-0;
+}
+
+
+.satoshi-normal-32 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-32;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-32 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-32;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-32 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-32;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-normal-36 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-36;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-36 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-36;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-36 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-36;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-normal-40 {
+    font-family: $satoshi-regular;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-normal;
+    font-size: $font-40;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-bold-40 {
+    font-family: $satoshi-bold;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-40;
+    letter-spacing: $char-spacing-0;
+}
+
+.satoshi-black-40 {
+    font-family: $satoshi-black;
+    font-style: $font-style-normal;
+    font-weight: $font-weight-bold;
+    font-size: $font-40;
+    letter-spacing: $char-spacing-0;
+}
+
+
+.font-weight-normal-001 {
+    font-weight: normal !important;
+}
+.font-weight-medium-001 {
+    font-weight: 500;
+}
+.font-weight-bold-001 {
+    font-weight: bold !important;
+}
+
+/* Text Color */
+// .text-darkgray {
+//     color: $darkgray !important;
+// }
+
+// .text-blue {
+//     color: $blue !important;
+// }
+
+// .text-orange {
+//     color: $orange !important;
+// }
+
+// .text-white-39 {
+//     color: $accent-white-39 !important;
+// }
+
+// .error-msg {
+//     color: $color-red-001;
+// }
+
+/* Text Alignment */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Text Decoration */
+.text-underline {
+    text-decoration: underline;
+}
+
+/* Text Overflow */
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+//Font Weight
+.font-normal {
+    font-weight: 400;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: 500;
+}
+
+.bg-white {
+    background-color: $bg-white !important;
+}
