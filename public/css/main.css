@@ -725,6 +725,12 @@ body {
   -webkit-box-orient: vertical;
 }
 
+.footer {
+  min-width: 100%;
+  background-color: #F6F6F6;
+  box-shadow: 0 0 6px 2px rgba(36, 50, 66, 0.08);
+}
+
 @-webkit-keyframes animateBottom {
   from {
     bottom: -300px;
@@ -2057,4 +2063,107 @@ body {
 }
 .styles_page__3O27c {
   margin-bottom: 128px;
+}
+
+.card-services-wrapper {
+  height: 400px;
+  width: 300px;
+  background-color: #f0003c;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 0 8px 2px rgba(36, 50, 66, 0.08);
+}
+
+.images-services {
+  background-color: white;
+  min-height: 100px;
+  min-width: 250px;
+  margin-bottom: 10px;
+}
+
+.card-services-pushable {
+  height: 400px;
+  width: 300px;
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 5px;
+}
+
+.card-services-shadow {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+.card-services-edge {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #52001b 0%, #a30036 8%, #a30036 92%, #52001b 100%);
+}
+
+.card-services-front {
+  height: 400px;
+  display: block;
+  position: relative;
+  padding: 10px;
+  font-size: 1.1rem;
+  color: white;
+  background: #f0003c;
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+@media (min-width: 768px) {
+  .card-services-front {
+    font-size: 1.25rem;
+    padding: 10px;
+  }
+}
+.card-services-pushable:hover {
+  filter: brightness(110%);
+}
+
+.card-services-pushable:hover .card-services-front {
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.card-services-pushable:active .card-services-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.card-services-pushable:hover .card-services-shadow {
+  transform: translateY(4px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.card-services-pushable:active .card-services-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.card-services-pushable:focus:not(:focus-visible) {
+  outline: none;
 }

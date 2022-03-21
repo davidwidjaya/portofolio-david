@@ -1,3 +1,6 @@
+<div class="navbar footer text-center">
+    <div class="satoshi-normal-16 w-100">Created By: David Alexander Widjaya</div>
+</div>
 {{-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
