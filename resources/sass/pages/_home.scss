@@ -9,11 +9,54 @@
     }
 }
 
+@keyframes animateRight {
+    from {
+        right: -300px;
+        opacity: 0;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+@keyframes animateLeft {
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
 .section-header {
     animation: animateBottom 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     position: relative;
+    // animation: ;
+}
+
+.animate-slide__right{
+    animation: animateRight 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+.animate-slide__left{
+    animation: animateLeft 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+.section-header-services {
+    // display: none;
+    // animation: animateBottom 1s;
+    // animation-iteration-count: 1;
+    // animation-fill-mode: forwards;
+    // position: relative;
     // animation: ;
 }
 
@@ -1189,9 +1232,13 @@
 
 .images-services{
     background-color: $bg-white;
-    min-height: 100px;
+    height: 150px;
     min-width: 250px;
     margin-bottom: 10px;
+
+    img{
+        height: 100%!important;
+    }
 }
 
 
@@ -1211,6 +1258,9 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     margin: 5px;
+    opacity: 0;
+
+    // display: none;
 }
 
 .card-services-shadow {
@@ -1289,4 +1339,52 @@
 
 .card-services-pushable:focus:not(:focus-visible) {
     outline: none;
+}
+.card-client__reviews{
+    background-color: $grey-light;
+    border: 2px solid black!important;
+    width: 350px !important;
+    height: 300px !important;
+    // display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 0 10px;
+    margin: 0 5px;
+    border-radius: 8px !important;
+}
+.author-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.author__reviews{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: start;
+}
+// $grey-light
+
+.carousel-item__flex{
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.author-profile{
+    width: 220px !important;
 }
