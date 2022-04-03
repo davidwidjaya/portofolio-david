@@ -40,6 +40,11 @@
                 scrollTop: $("#section-services").offset().top
             }, 500);
         });
+        $("#btn-see-more").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#btn-see-more").offset().top
+            }, 500);
+        });
     </script>
     @stack('script')
 </body>

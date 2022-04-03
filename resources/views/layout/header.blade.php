@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg box-shadow navbar-light bg-white ps-2">
     <div class="container">
-        <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+        <a class="navbar-brand d-flex justify-content-center align-items-center" href="{{ route('home') }}">
             <img src="{{ asset('resources/assets/logo-soft.png') }}" class="img-fluid" width="100px;" alt="">
             <div class="company-title satoshi-black-40 d-flex">
                 <div class="" style="color: #fb441f;">Tech</div>
@@ -15,7 +15,8 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav font-medium">
                 <li class="nav-item">
-                    <a class="nav-link satoshi-bold-16 {{request()->route()->getName() == "home" ? 'active' : ''}}" aria-current="page" href="{{ route('home') }}">Home</a>
+                    <a class="nav-link satoshi-bold-16 {{ request()->route()->getName() == 'home'? 'active': '' }}"
+                        aria-current="page" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item" id="services">
                     <a class="nav-link satoshi-bold-16" href="#">Services</a>
@@ -24,11 +25,12 @@
                     <a class="nav-link satoshi-bold-16" href="#">Pricing</a>
                 </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link satoshi-bold-16 {{request()->route()->getName() == "profile" ? 'active' : ''}}" href="{{ route('profile') }}">Profile</a>
+                    <a class="nav-link satoshi-bold-16 {{ request()->route()->getName() == 'profile'? 'active': '' }}"
+                        href="{{ route('profile') }}">Profile</a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link satoshi-bold-16" href="#">Contact Me</a>
-                </li>
+                </li> --}}
                 {{-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li> --}}

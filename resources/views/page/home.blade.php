@@ -13,7 +13,7 @@
                             unlimited revisions, beautiful
                             UI/UX for application or website for attract more customer for you.</div>
                         <br>
-                        <button class="button-82-pushable" role="button">
+                        <button class="button-82-pushable" role="button" id="btn-see-more">
                             <span class="button-82-shadow"></span>
                             <span class="button-82-edge"></span>
                             <span class="button-82-front text satoshi-normal-18">
@@ -72,7 +72,8 @@
                         <div class="title-services satoshi-bold-20 text-center">Website Development</div>
                         <br>
                         <div class="images-services">
-                            <img class="img-fluid" src="{{ asset('resources/assets/7b214fa3635c7727d860e6bfb55f282f.webp') }}" alt="">
+                            <img class="img-fluid"
+                                src="{{ asset('resources/assets/7b214fa3635c7727d860e6bfb55f282f.webp') }}" alt="">
                         </div>
                         <div class="desc-services satoshi-normal-18 text-center">
                             Create and customize your website that suits your bussiness or company with wonderful design
@@ -88,7 +89,8 @@
                         <div class="title-services satoshi-bold-20 text-center">Mobile Development</div>
                         <br>
                         <div class="images-services">
-                            <img class="img-fluid" src="{{ asset('resources/assets/Designing-Mobile-Apps.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('resources/assets/Designing-Mobile-Apps.jpg') }}"
+                                alt="">
                         </div>
                         <div class="desc-services satoshi-normal-18 text-center">
                             Build your own mobile apps for expand also attract more visitor from Android and iOS users over
@@ -118,7 +120,9 @@
                         <div class="title-services satoshi-bold-20 text-center">Digital Marketing</div>
                         <br>
                         <div class="images-services">
-                            <img class="img-fluid" src="{{ asset('resources/assets/616d57f1be7476649738a837_digital marketing.jpeg') }}" alt="">
+                            <img class="img-fluid"
+                                src="{{ asset('resources/assets/616d57f1be7476649738a837_digital marketing.jpeg') }}"
+                                alt="">
                         </div>
                         <div class="desc-services satoshi-normal-18 text-center">
                             We provide and promise you perfect SEO, CRM, Extremly Percentage Company Growth, Ads Optimizing
@@ -133,7 +137,8 @@
                         <div class="title-services satoshi-bold-20 text-center">Graphic Designer</div>
                         <br>
                         <div class="images-services">
-                            <img class="img-fluid" src="{{ asset('resources/assets/h5J594mu7Wh2NG4cYEyesj-1200-80.png') }}" alt="">
+                            <img class="img-fluid"
+                                src="{{ asset('resources/assets/h5J594mu7Wh2NG4cYEyesj-1200-80.png') }}" alt="">
                         </div>
                         <div class="desc-services satoshi-normal-18 text-center">
                             Our services that provide you best designer to create logo, ilustration, 2D/3D Digital Art,
@@ -148,7 +153,8 @@
                         <div class="title-services satoshi-bold-20 text-center">Growth Startup</div>
                         <br>
                         <div class="images-services">
-                            <img class="img-fluid" src="{{ asset('resources/assets/Perbedaan_Unicorn__Decacorn__Hectocorn.jpeg') }}" alt="">
+                            <img class="img-fluid"
+                                src="{{ asset('resources/assets/Perbedaan_Unicorn__Decacorn__Hectocorn.jpeg') }}" alt="">
                         </div>
                         <div class="desc-services satoshi-normal-18 text-center">
                             Our best services for who needs take action for your bussiness ideas with all data is guaranteed
@@ -167,7 +173,82 @@
             <div class="title-header__services satoshi-bold-32 text-center">Made By Us</div>
             <br>
             <div class="card-services-wrapper__list d-flex flex-wrap justify-content-center">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="portofolio__wrapper">
+                                <a href="#">
+                                    <div class="img-portofolio">
+                                        <img src="{{ asset('resources/assets/vvg-buyer.png') }}" alt="">
+                                    </div>
+                                </a>
+                            </div>
 
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portofolio__wrapper">
+                                <a href="#">
+                                    <div class="img-portofolio">
+                                        <img src="{{ asset('resources/assets/vvg-seller.png') }}" alt="">
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portofolio__wrapper">
+                                <a href="#">
+                                    <div class="img-portofolio">
+                                        <img src="{{ asset('resources/assets/vvg-admin.png') }}" alt="">
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portofolio__wrapper">
+                                <a href="#">
+                                    <div class="img-portofolio">
+                                        <img src="{{ asset('resources/assets/servicemart-full.png') }}" alt="">
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portofolio__wrapper">
+                                <a href="#">
+                                    <div class="img-portofolio">
+                                        <img src="{{ asset('resources/assets/bengkelid-full.png') }}" alt="">
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -190,12 +271,14 @@
                                 </div>
                                 <div class="col author__reviews">
                                     <div class="author-img">
-                                        <img src="{{ asset('resources/assets/gp.jpg') }}" alt="">
+                                        <img src="{{ asset('resources/assets/photo-by-face-generator_6249574dd03f72000e3ca068.jpg') }}"
+                                            alt="">
                                     </div>
                                     <div class="author-profile">
                                         <div class="author-profile__name satoshi-black-20"><strong>Robert Julian</strong>
                                         </div>
-                                        <div class="author-profile__role satoshi-normal-18">IT Specialist at Microsoft</div>
+                                        <div class="author-profile__role satoshi-normal-18">IT Specialist at Microsoft
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -208,7 +291,8 @@
                                 </div>
                                 <div class="col author__reviews">
                                     <div class="author-img">
-                                        <img src="{{ asset('resources/assets/gp.jpg') }}" alt="">
+                                        <img src="{{ asset('resources/assets/photo-by-face-generator_6249575f60ec51000fce7386.jpg') }}"
+                                            alt="">
                                     </div>
                                     <div class="author-profile">
                                         <div class="author-profile__name satoshi-black-20"><strong>Kevin Cortney</strong>
@@ -226,7 +310,8 @@
                                 </div>
                                 <div class="col author__reviews">
                                     <div class="author-img">
-                                        <img src="{{ asset('resources/assets/gp.jpg') }}" alt="">
+                                        <img src="{{ asset('resources/assets/photo-by-face-generator_62495769d03f72000e3ca073.jpg') }}"
+                                            alt="">
                                     </div>
                                     <div class="author-profile">
                                         <div class="author-profile__name satoshi-black-20"><strong>Alex Calee</strong>
@@ -247,7 +332,8 @@
                                 </div>
                                 <div class="col author__reviews">
                                     <div class="author-img">
-                                        <img src="{{ asset('resources/assets/gp.jpg') }}" alt="">
+                                        <img src="{{ asset('resources/assets/photo-by-face-generator_624957a360ec51000cb1fb8b.jpg') }}"
+                                            alt="">
                                     </div>
                                     <div class="author-profile">
                                         <div class="author-profile__name satoshi-black-20"><strong>Melaney Vania</strong>
@@ -263,7 +349,8 @@
                                 </div>
                                 <div class="col author__reviews">
                                     <div class="author-img">
-                                        <img src="{{ asset('resources/assets/gp.jpg') }}" alt="">
+                                        <img src="{{ asset('resources/assets/photo-by-face-generator_624957add03f72000f7dbe71.jpg') }}"
+                                            alt="">
                                     </div>
                                     <div class="author-profile">
                                         <div class="author-profile__name satoshi-black-20"><strong>Freddy Robert</strong>
@@ -279,7 +366,8 @@
                                 </div>
                                 <div class="col author__reviews">
                                     <div class="author-img">
-                                        <img src="{{ asset('resources/assets/gp.jpg') }}" alt="">
+                                        <img src="{{ asset('resources/assets/photo-by-face-generator_624957c560ec51000cb1fb90.jpg') }}"
+                                            alt="">
                                     </div>
                                     <div class="author-profile">
                                         <div class="author-profile__name satoshi-black-20"><strong>Gilbert Monic</strong>
@@ -305,7 +393,8 @@
                                 </div>
                                 <div class="col author__reviews">
                                     <div class="author-img">
-                                        <img src="{{ asset('resources/assets/gp.jpg') }}" alt="">
+                                        <img src="{{ asset('resources/assets/photo-by-face-generator_624957e360ec51000cb1fb94.jpg') }}"
+                                            alt="">
                                     </div>
                                     <div class="author-profile">
                                         <div class="author-profile__name satoshi-black-20"><strong>Galeel
@@ -325,7 +414,8 @@
                                 </div>
                                 <div class="col author__reviews">
                                     <div class="author-img">
-                                        <img src="{{ asset('resources/assets/gp.jpg') }}" alt="">
+                                        <img src="{{ asset('resources/assets/photo-by-face-generator_624957f9d03f72000f7dbe7b.jpg') }}"
+                                            alt="">
                                     </div>
                                     <div class="author-profile">
                                         <div class="author-profile__name satoshi-black-20"><strong>Kim Young</strong>
@@ -344,7 +434,8 @@
                                 </div>
                                 <div class="col author__reviews">
                                     <div class="author-img">
-                                        <img src="{{ asset('resources/assets/gp.jpg') }}" alt="">
+                                        <img src="{{ asset('resources/assets/photo-by-face-generator_62495818d03f72000f7dbe7f.jpg') }}"
+                                            alt="">
                                     </div>
                                     <div class="author-profile">
                                         <div class="author-profile__name satoshi-black-20"><strong>Lee De Jong</strong>
